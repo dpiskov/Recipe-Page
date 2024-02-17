@@ -1,0 +1,174 @@
+*,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Outfit";
+    font-weight: 400;
+
+    background-color: hsl(30, 54%, 90%);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100svh;
+}
+
+img {
+    display: block;
+    width: 100%;
+
+    border-radius: 0.5rem;
+}
+
+h1 {
+    font-size: 30px;
+    margin: 2rem 0 1rem 0;
+}
+
+h1, h2 {
+    font-family: "Young Serif";
+    font-weight: 400;
+}
+
+h2:first-of-type {
+    padding-bottom: 0.6rem;
+}
+
+h2:not(:first-of-type) {
+    border-top: 1px solid lightgray;
+    margin: 1.5rem 0 0 0;
+    padding: 1.5rem 0 1rem 0;
+}
+
+h2, 
+li::marker,
+.measurements {
+    color: hsl(14, 45%, 36%);
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 1.5rem;
+}
+
+p, li, td {
+    color: hsl(30, 10%, 34%);
+}
+
+ul, ol {
+    padding-left: 1.5rem;
+}
+
+ul li
+{
+    padding-left: 1rem;
+    line-height: 2rem;
+}
+
+ol li {
+    padding: 0 0 0.7rem 1rem;
+    line-height: 1.4rem;
+}
+
+li::marker {
+    font-weight: bold;
+}
+
+table {
+    table-layout: fixed;
+    width: 37rem;
+    border-collapse: collapse;
+}
+
+table td {
+    text-indent: 2.3rem;
+    border-bottom: 1px solid lightgray;
+    padding: 0.8rem 0 1rem 0;
+}
+
+.container {
+    width: 46rem;
+    /* height: 106.75rem; */
+    background-color: hsl(0, 0%, 100%);
+
+    margin: 7.7rem 22rem;
+    border-radius: 1.1rem;
+
+    padding: 2.5rem;
+}
+
+.prep-time {
+    background-color: hsl(330, 100%, 98%);
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+.prep-time h3 {
+    color: hsl(332, 51%, 32%);
+}
+
+/* .prep-time ul {
+    padding: 0.5rem 0 0 1.5rem;
+} */
+
+
+
+.bold {
+    font-weight: 700;
+    color: hsl(24, 5%, 18%);
+}
+
+
+@media screen and (max-width: 375px) {
+}
+
+
+
+
+/*
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+### Primary
+
+- Nutmeg: hsl(14, 45%, 36%)
+- Dark Raspberry: hsl(332, 51%, 32%)
+
+### Neutral
+
+- White: hsl(0, 0%, 100%)
+- Rose White: hsl(330, 100%, 98%)
+- Eggshell: hsl(30, 54%, 90%)
+- Light Grey: hsl(30, 18%, 87%)
+- Wenge Brown: hsl(30, 10%, 34%)
+- Dark Charcoal: hsl(24, 5%, 18%)
+
+### Body Copy
+
+- Font size (paragraph): 16px
+
+### Fonts
+
+- Family: [Young Serif](https://fonts.google.com/specimen/Young+Serif)
+- Weights: 400
+
+- Family: [Outfit](https://fonts.google.com/specimen/Outfit)
+- Weights: 400, 600, 700 */
+
+
+
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
